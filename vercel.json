@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*.md",
+      "use": "@vercel/static"
+    }
+  ],
+  "buildCommand": "curl -L https://github.com/rust-lang/mdBook/releases/download/v0.4.36/mdbook-v0.4.36-x86_64-unknown-linux-gnu.tar.gz | tar xvz && ./mdbook build",
+  "outputDirectory": "book",
+  "installCommand": "echo \"Skipping install, we'll install mdbook in build command\""
+}

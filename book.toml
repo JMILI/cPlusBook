@@ -1,0 +1,17 @@
+[book]
+authors = ["lijiangmin"]
+language = "en"
+src = "src"
+title = "C++知识点简要总结"
+
+[output.html.fold]
+enable = true    # whether to enable section folding
+level = 0         # the depth to start folding
+
+[output.html.search]
+enable = true            # enables the search feature
+
+[output.html]
+mathjax-support = true
+#mathjax-config = "TeX-AMS-MML_HTMLorMML"
+additional-css = ["css/custom.css"]
