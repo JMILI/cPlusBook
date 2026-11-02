@@ -1,5 +1,5 @@
 # Summary
-- [首页](REAMDE.md)
+- [首页](README.md)
 - [序章](study/00_foreword/foreword.md)
 - [基础知识【单蹦蹦知识】](study/01_base_knowledge/README.md)
   - [注释](study/01_base_knowledge/01_comments.md)

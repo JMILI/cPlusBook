@@ -1,7 +1,7 @@
 [book]
 authors = ["lijiangmin"]
 language = "en"
-src = "src"
+src = "src"   # 章节入口是 src/SUMMARY.md；src/README.md 为书籍封面首页
 title = "C++知识点简要总结"
 
 [output.html.fold]
